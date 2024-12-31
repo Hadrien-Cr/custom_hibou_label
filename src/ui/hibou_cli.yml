@@ -424,36 +424,85 @@ subcommands:
           args:
               - hsf:
                     required: true
-                    index: 1
-                    help: input hibou signature file
-              - folder:
-                    required: false
-                    short: f
                     takes_value: true
-                    help: folder in which to generate the interactions
+                    help: input hibou signature file
+
               - num_ints:
                   required: false
-                  short: i
                   takes_value: true
                   help: number of interactions to generate (default 350)
               - probas:
                   required: false
-                  short: p
                   takes_value: true
-                  help: probability distributions of interaction language symbols (default or conservative)
+                  help: probability distributions of interaction language symbols (default, custom or conservative)
               - max_depth:
                     required: false
-                    short: d
                     takes_value: true
                     help: maximum depth of generated interaction terms (before simplification) (default 10)
               - min_symbols:
                     required: false
-                    short: x
                     takes_value: true
                     help: maximum number of symbols of generated interaction terms (after simplification) (default 100)
               - seed:
                     required: false
-                    short: s
                     takes_value: true
                     help: seed for RNG (default 1)
 
+
+              - pempty:
+                    required: false
+                    takes_value: true
+                    help: probability for empty (default 0)
+              - paction:
+                    required: false
+                    takes_value: true
+                    help: probability for action (default 0)    
+              - pstrict:
+                    required: false
+                    takes_value: true
+                    help: probability for strict (default 0)
+              - pseq:
+                    required: false
+                    takes_value: true
+                    help: probability for seq (default 0)
+              - pcoreg:
+                    required: false
+                    takes_value: true
+                    help: probability for coreg (default 0)
+              - ppar:
+                    required: false
+                    takes_value: true
+                    help: probability for par (default 0)
+              - ploopS:
+                    required: false
+                    takes_value: true
+                    help: probability for loopS (default 0)
+              - ploopW:
+                    required: false
+                    takes_value: true
+                    help: probability for loopW (default 0)
+              - ploopP:
+                    required: false
+                    takes_value: true
+                    help: probability for ploopP (default 0)
+              - palt:
+                    required: false
+                    takes_value: true
+                    help: probability for alt (default 0)
+              - pbasic:
+                    required: false
+                    takes_value: true
+                    help: probability for basic (default 0)
+              - ptransmission:
+                    required: false
+                    takes_value: true
+                    help: probability for tranmission (default 0)
+              - pbroadcast:
+                    required: false
+                    takes_value: true
+                    help: probability for broadcast (default 0)
+
+              - folder:
+                    required: false
+                    takes_value: true
+                    help: folder in which to generate the interactions

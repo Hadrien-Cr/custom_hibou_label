@@ -51,12 +51,12 @@ use crate::nfa_translation::experiments2::run_nfa_generation_experiment2;
 use crate::nfa_translation::experiments::run_nfa_generation_experiment;
 
 
-pub fn cli_rng_gen_interactions(matches : &ArgMatches) -> (Vec<String>,u32) {
+pub fn cli_rng_gen_interactions(matches : &ArgMatches) -> (Vec<String>,u32,f32) {
     let hsf_file_path = matches.value_of("hsf").unwrap();
     match parse_hsf_file(hsf_file_path) {
         Err(e) => {
-            return (vec![e.to_string()],1);
-        },
+            return (vec![e.to_string()], 1, 0.0); // Add a default f32 value
+        }
         Ok( gen_ctx ) => {
 
             let number_of_interactions : u32 = match matches.value_of("num_ints") {
@@ -70,7 +70,7 @@ pub fn cli_rng_gen_interactions(matches : &ArgMatches) -> (Vec<String>,u32) {
 
             let num_tries : u32 = match matches.value_of("num_tries") {
                 None => {
-                    number_of_interactions*3
+                    number_of_interactions*10
                 },
                 Some( as_str ) => {
                     as_str.trim().parse::<u32>().unwrap()
@@ -94,6 +94,129 @@ pub fn cli_rng_gen_interactions(matches : &ArgMatches) -> (Vec<String>,u32) {
                     as_str.trim().parse::<u32>().unwrap()
                 }
             };
+
+            let pempty: f32 = match matches.value_of("pempty") {
+                None => {
+                    0.5
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let paction: f32 = match matches.value_of("paction") {
+                None => {
+                    0.5
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let pstrict: f32 = match matches.value_of("pstrict") {
+                None => {
+                    0.0
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let pseq: f32 = match matches.value_of("pseq") {
+                None => {
+                    0.0
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let pcoreg: f32 = match matches.value_of("pcoreg") {
+                None => {
+                    0.0
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let ppar: f32 = match matches.value_of("ppar") {
+                None => {
+                    0.0
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let ploops: f32 = match matches.value_of("ploopS") {
+                None => {
+                    0.0
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let ploopw: f32 = match matches.value_of("ploopW") {
+                None => {
+                    0.0
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let ploopp: f32 = match matches.value_of("ploopP") {
+                None => {
+                    0.0
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let palt: f32 = match matches.value_of("palt") {
+                None => {
+                    0.0
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let pbasic: f32 = match matches.value_of("pbasic") {
+                None => {
+                    0.0
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let ptr: f32 = match matches.value_of("ptransmission") {
+                None => {
+                    0.0
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            let pbc: f32 = match matches.value_of("pbroadcast") {
+                None => {
+                    0.0
+                }
+                Some(as_str) => {
+                    as_str.trim().parse::<f32>().unwrap()
+                }
+            };
+            
+            if (pempty + paction + pstrict + pseq + pcoreg + ppar + ploops + ploopw + ploopp + palt + pbasic + ptr + pbc - 1.0).abs() > f32::EPSILON {
+                panic!("Probabilities do not sum to 1.0");
+            }
+            
+            
 
             let seed : u64 = match matches.value_of("seed") {
                 None => {
@@ -122,6 +245,12 @@ pub fn cli_rng_gen_interactions(matches : &ArgMatches) -> (Vec<String>,u32) {
                     "protocols_with_coreg" => {
                         probas_name = "conservative";
                         InteractionSymbolsProbabilities::protocols_with_coreg()
+                    },
+                    "custom" => {
+                        probas_name = "custom";
+                        InteractionSymbolsProbabilities::custom(
+                            pempty, paction, pstrict, pseq, pcoreg, ppar, ploops, ploopw, ploopp, palt, pbasic, ptr, pbc
+                        )
                     },
                     "default" => {
                         InteractionSymbolsProbabilities::default_non_regular()
@@ -191,7 +320,7 @@ pub fn cli_rng_gen_interactions(matches : &ArgMatches) -> (Vec<String>,u32) {
 
 
 
-            return (ret_print,0);
+            return (ret_print, 0, 0.0); // Add a default f32 value
         }
     }
 }

@@ -181,6 +181,41 @@ impl InteractionSymbolsProbabilities {
         Self::from_map(map).unwrap()
     }
 
+    // Custom probabilities
+    pub fn custom(
+        pempty: f32,
+        paction: f32,
+        pstrict: f32,
+        pseq: f32,
+        pcoreg: f32,
+        ppar: f32,
+        ploops: f32,
+        ploopw: f32,
+        ploopp: f32,
+        palt: f32,
+        pbasic: f32,
+        ptr: f32,
+        pbc: f32,
+    ) -> InteractionSymbolsProbabilities {
+        let map = hashmap!{
+            InteractionGenerationSymbol::Empty => pempty,
+            InteractionGenerationSymbol::Action => paction,
+            InteractionGenerationSymbol::Strict => pstrict,
+            InteractionGenerationSymbol::Seq => pseq,
+            InteractionGenerationSymbol::Coreg => pcoreg,
+            InteractionGenerationSymbol::Par => ppar,
+            InteractionGenerationSymbol::LoopS => ploops,
+            InteractionGenerationSymbol::LoopW => ploopw,
+            InteractionGenerationSymbol::LoopP => ploopp,
+            InteractionGenerationSymbol::Alt => palt,
+            InteractionGenerationSymbol::Basic => pbasic,
+            InteractionGenerationSymbol::Transmission => ptr,
+            InteractionGenerationSymbol::Broadcast => pbc,
+        };
+        Self::from_map(map).unwrap()
+    }
+
+
     pub fn default_basic() -> InteractionSymbolsProbabilities {
         let map = hashmap!{
             InteractionGenerationSymbol::Action     => 0.4,
