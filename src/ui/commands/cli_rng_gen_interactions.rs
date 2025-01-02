@@ -68,14 +68,7 @@ pub fn cli_rng_gen_interactions(matches : &ArgMatches) -> (Vec<String>,u32,f32) 
                 }
             };
 
-            let num_tries : u32 = match matches.value_of("num_tries") {
-                None => {
-                    number_of_interactions*10
-                },
-                Some( as_str ) => {
-                    as_str.trim().parse::<u32>().unwrap()
-                }
-            };
+
 
             let max_depth : u32 = match matches.value_of("max_depth") {
                 None => {
@@ -94,7 +87,14 @@ pub fn cli_rng_gen_interactions(matches : &ArgMatches) -> (Vec<String>,u32,f32) 
                     as_str.trim().parse::<u32>().unwrap()
                 }
             };
-
+            let num_tries : u32 = match matches.value_of("num_tries") {
+                None => {
+                    number_of_interactions*100*min_symbols
+                },
+                Some( as_str ) => {
+                    as_str.trim().parse::<u32>().unwrap()
+                }
+            };
             let pempty: f32 = match matches.value_of("pempty") {
                 None => {
                     0.5
