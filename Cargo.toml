@@ -12,7 +12,7 @@ description = "Holistic Interaction Behavioral Oracle Utility - hibou provides u
 [dependencies]
 image = "0.24.5"                                # for rendering interactions
 imageproc = "0.23.0"                            # ...
-image_colored_text = "0.1.2"                    # for drawing colored text
+image_colored_text = "=0.1.2"                    # for drawing colored text
 rusttype = "0.9.3"                              # for fonts and scale for text in images
 pest = "2.7.11"                                  # for pest parser
 pest_derive = "2.7.11"                           # ...

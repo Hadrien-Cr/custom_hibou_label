@@ -31,6 +31,7 @@ pub mod cli_glosem;
 pub mod cli_nfa_experiment2;
 pub mod cli_get_metrics;
 pub mod cli_rng_gen_interactions;
+pub mod cli_rng_gen_raw_interactions;
 //pub mod cli_term_repr;
 
 

@@ -5,7 +5,8 @@
 Fork of HIBOU, https://github.com/erwanM974/hibou_label
 
 This has been created to add more options to the hibou_label `rng_gen_interactions` command 
-The only change yet is the custom probabilities:
+The only 2 changes yet are:
+-  added the custom probabilities distribution
 
 ```
 hibou_label rng_gen_interactions {path.hsf} {num_ints} custom {max_depth} {min_symbols} {seed} {pempty} {paction} {pstrict} {pseq} {pcoreg} {ppar} {ploopS} {ploopW} {ploopP} {palt} {pbasic} {ptransmission} {pbroadcast} {target_folder}
@@ -13,4 +14,10 @@ hibou_label rng_gen_interactions {path.hsf} {num_ints} custom {max_depth} {min_s
 example: 
 ```
 hibou_label rng_gen_interactions readme/examples/2/basic/sig.hsf 1 custom 15 10 1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.0 0.0 0.0 here
+```
+
+-  added the option to bypass canonization (raw hif)
+
+```
+hibou_label rng_gen_raw_interactions readme/examples/2/basic/sig.hsf 1 custom 15 10 1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.1 0.0 0.0 0.0 here
 ```

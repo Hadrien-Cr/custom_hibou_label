@@ -33,6 +33,8 @@ use crate::ui::commands::cli_nfa_experiment::cli_nfa_experiment;
 use crate::ui::commands::cli_puml_ap::cli_puml_ap;
 use crate::ui::commands::cli_puml_sd::cli_puml_sd;
 use crate::ui::commands::cli_rng_gen_interactions::cli_rng_gen_interactions;
+use crate::ui::commands::cli_rng_gen_raw_interactions::cli_rng_gen_raw_interactions;
+
 use crate::ui::commands::cli_slice::cli_slice;
 use crate::ui::util::printing::print_on_hibou_cli;
 
@@ -70,6 +72,10 @@ pub fn hibou_cli() -> i32 {
         ret_code = got.1;
     } else if let Some(matches) = matches.subcommand_matches("rng_gen_interactions") {
         let mut got = cli_rng_gen_interactions(matches);
+        ret_print = got.0;
+        ret_code = got.1;
+    } else if let Some(matches) = matches.subcommand_matches("rng_gen_raw_interactions") {
+        let mut got = cli_rng_gen_raw_interactions(matches);
         ret_print = got.0;
         ret_code = got.1;
     } else if let Some(matches) = matches.subcommand_matches("get_metrics") {

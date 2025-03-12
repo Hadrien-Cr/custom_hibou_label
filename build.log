@@ -1,0 +1,2011 @@
+       Fresh autocfg v1.4.0
+       Fresh cfg-if v1.0.0
+       Fresh unicode-ident v1.0.18
+       Fresh either v1.15.0
+       Fresh simd-adler32 v0.3.7
+       Fresh libc v0.2.171
+       Fresh num-traits v0.2.19
+       Fresh proc-macro2 v1.0.94
+       Fresh zerocopy v0.8.23
+       Fresh crossbeam-utils v0.8.21
+       Fresh adler2 v2.0.0
+       Fresh quote v1.0.40
+       Fresh num-integer v0.1.46
+       Fresh ppv-lite86 v0.2.21
+       Fresh crossbeam-epoch v0.9.18
+       Fresh num-complex v0.4.6
+       Fresh bytemuck v1.22.0
+       Fresh miniz_oxide v0.8.5
+       Fresh syn v2.0.100
+       Fresh num-bigint v0.4.6
+       Fresh crossbeam-deque v0.8.6
+       Fresh getrandom v0.1.16
+       Fresh num-iter v0.1.45
+       Fresh getrandom v0.2.15
+       Fresh crc32fast v1.4.2
+       Fresh num-rational v0.4.2
+       Fresh rayon-core v1.12.1
+       Fresh rustversion v1.0.20
+       Fresh heck v0.5.0
+       Fresh rand_core v0.5.1
+       Fresh flate2 v1.1.0
+       Fresh rayon v1.10.0
+       Fresh num v0.4.3
+       Fresh rand_core v0.6.4
+       Fresh thiserror-impl v2.0.12
+       Fresh safe_arch v0.7.4
+       Fresh bitflags v1.3.2
+       Fresh weezl v0.1.8
+       Fresh wide v0.7.32
+       Fresh jpeg-decoder v0.3.1
+       Fresh paste v1.0.15
+       Fresh thiserror v2.0.12
+       Fresh rand_chacha v0.3.1
+       Fresh strum_macros v0.27.1
+       Fresh rand_chacha v0.2.2
+       Fresh approx v0.5.1
+       Fresh fdeflate v0.3.7
+       Fresh zune-inflate v0.2.54
+       Fresh half v2.4.1
+       Fresh bit_field v0.10.2
+       Fresh ucd-trie v0.1.7
+       Fresh memchr v2.7.4
+       Fresh strum v0.27.1
+       Fresh rawpointer v0.2.1
+       Fresh maplit v1.0.2
+       Fresh ttf-parser v0.15.2
+       Fresh smallvec v1.14.0
+       Fresh lebe v0.5.2
+       Fresh color_quant v1.1.0
+       Fresh pest v2.7.15
+       Fresh matrixmultiply v0.3.9
+       Fresh graphviz_dot_builder v0.1.5
+       Fresh owned_ttf_parser v0.15.2
+       Fresh rand v0.7.3
+       Fresh rand v0.8.5
+       Fresh exr v1.73.0
+       Fresh gif v0.13.1
+       Fresh typenum v1.18.0
+       Fresh png v0.17.16
+       Fresh simba v0.7.3
+       Fresh tiff v0.9.1
+       Fresh qoi v0.4.1
+       Fresh itertools v0.14.0
+       Fresh byteorder v1.5.0
+       Fresh custom_derive v0.1.7
+       Fresh ab_glyph_rasterizer v0.1.8
+       Fresh once_cell v1.21.0
+       Fresh autour_core v0.1.12
+       Fresh nalgebra v0.30.1
+       Fresh rand_distr v0.2.2
+       Fresh rusttype v0.9.3
+       Fresh conv v0.3.3
+       Fresh image v0.24.9
+       Fresh pest_meta v2.7.15
+       Fresh graph_process_manager_core v0.1.10
+       Fresh itertools v0.13.0
+       Fresh itertools v0.10.5
+       Fresh os_str_bytes v6.6.1
+       Fresh linked-hash-map v0.5.6
+       Fresh hashbrown v0.12.3
+       Fresh graph_process_manager_loggers v0.1.15
+       Fresh imageproc v0.23.0
+       Fresh pest_generator v2.7.15
+       Fresh strum_macros v0.26.4
+       Fresh atty v0.2.14
+       Fresh clap_lex v0.2.4
+       Fresh indexmap v1.9.3
+       Fresh yaml-rust v0.4.5
+       Fresh textwrap v0.16.2
+       Fresh strsim v0.10.0
+       Fresh strum v0.26.3
+       Fresh termcolor v1.4.1
+       Fresh image_colored_text v0.1.2
+       Fresh clap v3.2.25
+       Fresh autour_process v0.1.7
+       Fresh pest_derive v2.7.15
+   Compiling hibou_label v0.8.8 (/home/hadriencrs/Code/rust/custom_hibou_label)
+     Running `/home/hadriencrs/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name hibou_label --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values())' -C metadata=d43f29abd0b6a3e7 -C extra-filename=-3f05f92e104bce01 --out-dir /home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps -C incremental=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/incremental -L dependency=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps --extern autour_core=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libautour_core-f26a1043da41b68c.rlib --extern autour_process=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libautour_process-071f87bdc8817a42.rlib --extern clap=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libclap-a9be63a83074d2ce.rlib --extern graph_process_manager_core=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libgraph_process_manager_core-4ca2ee8af16f1690.rlib --extern graph_process_manager_loggers=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libgraph_process_manager_loggers-873b8b5420fbce9a.rlib --extern graphviz_dot_builder=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libgraphviz_dot_builder-47a0c0b78b02b405.rlib --extern image=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libimage-a5c4b2cef32531ac.rlib --extern image_colored_text=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libimage_colored_text-5f311325fada2270.rlib --extern imageproc=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libimageproc-20e09b60f5ee6154.rlib --extern itertools=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libitertools-a80b0b6685fe7116.rlib --extern maplit=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libmaplit-5d49ad1f1165adbe.rlib --extern pest=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libpest-5bf2cd5c8328bf4a.rlib --extern pest_derive=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libpest_derive-c5db1bb5153122f1.so --extern rand=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/librand-44890b40c00b1bf8.rlib --extern rusttype=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/librusttype-af8434b653c6221f.rlib --extern strum=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libstrum-f90df1ec1bef1843.rlib --extern strum_macros=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libstrum_macros-e2b422e614a464fe.so`
+error[E0425]: cannot find function `cli_rng_gen_raw_interactions` in this scope
+  --> src/ui/hibou_cli.rs:76:23
+   |
+76 |         let mut got = cli_rng_gen_raw_interactions(matches);
+   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+  ::: src/ui/commands/cli_rng_gen_interactions.rs:54:1
+   |
+54 | pub fn cli_rng_gen_interactions(matches : &ArgMatches) -> (Vec<String>,u32,f32) {
+   | ------------------------------------------------------------------------------- similarly named function `cli_rng_gen_interactions` defined here
+   |
+help: a function with a similar name exists
+   |
+76 |         let mut got = cli_rng_gen_interactions(matches);
+   |                       ~~~~~~~~~~~~~~~~~~~~~~~~
+help: consider importing this function
+   |
+18 + use crate::ui::commands::cli_rng_gen_raw_interactions::cli_rng_gen_raw_interactions;
+   |
+
+warning: unused import: `std::fmt::format`
+  --> src/core/language/syntax/metrics.rs:21:5
+   |
+21 | use std::fmt::format;
+   |     ^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` on by default
+
+warning: unused import: `HashSet`
+  --> src/core/language/involve/involves.rs:18:34
+   |
+18 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/core/language/involve/action.rs:17:34
+   |
+17 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/core/language/involve/interaction.rs:20:34
+   |
+20 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/core/language/eliminate_lf/eliminable.rs:19:34
+   |
+19 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/core/language/eliminate_lf/action.rs:20:34
+   |
+20 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/core/language/eliminate_lf/interaction.rs:18:34
+   |
+18 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/core/language/avoid/avoids.rs:18:34
+   |
+18 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/core/language/avoid/implem.rs:20:34
+   |
+20 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/core/language/prune/prunable.rs:19:34
+   |
+19 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/core/language/prune/interaction.rs:19:34
+   |
+19 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `crate::core::execution::trace::trace::TraceActionKind::Reception`
+  --> src/core/transformation/transfofunc/action.rs:20:5
+   |
+20 | use crate::core::execution::trace::trace::TraceActionKind::Reception;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::execution::semantics::frontier::global_frontier`
+  --> src/core/transformation/transfofunc/par_to_seq.rs:20:5
+   |
+20 | use crate::core::execution::semantics::frontier::global_frontier;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/core/execution/semantics/execute.rs:19:34
+   |
+19 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/core/general_context.rs:18:34
+   |
+18 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/io/input/hcf/loggers/tracegen.rs:18:34
+   |
+18 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `crate::io::input::hcf::loggers::tracegen::parse_tracegen_logger`
+  --> src/io/input/hcf/canon/options.rs:27:5
+   |
+27 | use crate::io::input::hcf::loggers::tracegen::parse_tracegen_logger;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::io::input::hcf::loggers::nfait::parse_nfait_logger`
+  --> src/io/input/hcf/canon/options.rs:32:5
+   |
+32 | use crate::io::input::hcf::loggers::nfait::parse_nfait_logger;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/io/input/htf/trace.rs:17:34
+   |
+17 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/io/input/htf/multi_trace.rs:19:34
+   |
+19 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/io/input/htf/implem.rs:18:34
+   |
+18 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/io/output/draw_traces/implem/ext_mu.rs:18:34
+   |
+18 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unnecessary parentheses around `if` condition
+   --> src/io/output/draw_traces/implem/ext_mu.rs:105:12
+    |
+105 |         if (canal_flags.dirty_local_counter > 0) {
+    |            ^                                   ^
+    |
+    = note: `#[warn(unused_parens)]` on by default
+help: remove these parentheses
+    |
+105 -         if (canal_flags.dirty_local_counter > 0) {
+105 +         if canal_flags.dirty_local_counter > 0 {
+    |
+
+warning: unused import: `std::collections::BTreeSet`
+  --> src/ui/commands/cli_nfa_ana.rs:18:5
+   |
+18 | use std::collections::BTreeSet;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `std::time::Instant`
+  --> src/ui/commands/cli_nfa_experiment.rs:19:5
+   |
+19 | use std::time::Instant;
+   |     ^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::letter::AutAlphabetSubstitutable`
+  --> src/ui/commands/cli_nfa_experiment.rs:20:5
+   |
+20 | use autour_core::traits::letter::AutAlphabetSubstitutable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::repr::AutGraphvizDrawable`
+  --> src/ui/commands/cli_nfa_experiment.rs:21:5
+   |
+21 | use autour_core::traits::repr::AutGraphvizDrawable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::transform::AutTransformable`
+  --> src/ui/commands/cli_nfa_experiment.rs:22:5
+   |
+22 | use autour_core::traits::transform::AutTransformable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::translate::AutTranslatable`
+  --> src/ui/commands/cli_nfa_experiment.rs:23:5
+   |
+23 | use autour_core::traits::translate::AutTranslatable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::edge::edge::GraphVizEdge`
+  --> src/ui/commands/cli_nfa_experiment.rs:27:5
+   |
+27 | use graphviz_dot_builder::edge::edge::GraphVizEdge;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::graph::graph::GraphVizDiGraph`
+  --> src/ui/commands/cli_nfa_experiment.rs:28:5
+   |
+28 | use graphviz_dot_builder::graph::graph::GraphVizDiGraph;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::item::node::node::GraphVizNode`
+  --> src/ui/commands/cli_nfa_experiment.rs:29:5
+   |
+29 | use graphviz_dot_builder::item::node::node::GraphVizNode;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `GraphvizNodeStyleItem` and `GvNodeShape`
+  --> src/ui/commands/cli_nfa_experiment.rs:30:47
+   |
+30 | use graphviz_dot_builder::item::node::style::{GraphvizNodeStyleItem, GvNodeShape};
+   |                                               ^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^
+
+warning: unused imports: `DotBuildable`, `DotPrintable`, and `GraphVizOutputFormat`
+  --> src/ui/commands/cli_nfa_experiment.rs:31:36
+   |
+31 | use graphviz_dot_builder::traits::{DotBuildable, DotPrintable, GraphVizOutputFormat};
+   |                                    ^^^^^^^^^^^^  ^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::execution::trace::trace::TraceAction`
+  --> src/ui/commands/cli_nfa_experiment.rs:35:5
+   |
+35 | use crate::core::execution::trace::trace::TraceAction;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `InteractionGraphicalRepresentation` and `draw_interaction`
+  --> src/ui/commands/cli_nfa_experiment.rs:39:55
+   |
+39 | use crate::io::output::draw_interactions::interface::{draw_interaction, InteractionGraphicalRepresentation};
+   |                                                       ^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graph_process_manager_core::queued_steps::queue::strategy::QueueSearchStrategy`
+  --> src/ui/commands/cli_canonize.rs:23:5
+   |
+23 | use graph_process_manager_core::queued_steps::queue::strategy::QueueSearchStrategy;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::compositional::get_nfa_from_interaction_via_composition`
+  --> src/ui/commands/cli_glosem.rs:38:5
+   |
+38 | use crate::nfa_translation::compositional::get_nfa_from_interaction_via_composition;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `std::time::Instant`
+  --> src/ui/commands/cli_nfa_experiment2.rs:21:5
+   |
+21 | use std::time::Instant;
+   |     ^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::letter::AutAlphabetSubstitutable`
+  --> src/ui/commands/cli_nfa_experiment2.rs:22:5
+   |
+22 | use autour_core::traits::letter::AutAlphabetSubstitutable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::repr::AutGraphvizDrawable`
+  --> src/ui/commands/cli_nfa_experiment2.rs:23:5
+   |
+23 | use autour_core::traits::repr::AutGraphvizDrawable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::transform::AutTransformable`
+  --> src/ui/commands/cli_nfa_experiment2.rs:24:5
+   |
+24 | use autour_core::traits::transform::AutTransformable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::translate::AutTranslatable`
+  --> src/ui/commands/cli_nfa_experiment2.rs:25:5
+   |
+25 | use autour_core::traits::translate::AutTranslatable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::edge::edge::GraphVizEdge`
+  --> src/ui/commands/cli_nfa_experiment2.rs:29:5
+   |
+29 | use graphviz_dot_builder::edge::edge::GraphVizEdge;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::graph::graph::GraphVizDiGraph`
+  --> src/ui/commands/cli_nfa_experiment2.rs:30:5
+   |
+30 | use graphviz_dot_builder::graph::graph::GraphVizDiGraph;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::item::node::node::GraphVizNode`
+  --> src/ui/commands/cli_nfa_experiment2.rs:31:5
+   |
+31 | use graphviz_dot_builder::item::node::node::GraphVizNode;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `GraphvizNodeStyleItem` and `GvNodeShape`
+  --> src/ui/commands/cli_nfa_experiment2.rs:32:47
+   |
+32 | use graphviz_dot_builder::item::node::style::{GraphvizNodeStyleItem, GvNodeShape};
+   |                                               ^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^
+
+warning: unused imports: `DotBuildable`, `DotPrintable`, and `GraphVizOutputFormat`
+  --> src/ui/commands/cli_nfa_experiment2.rs:33:36
+   |
+33 | use graphviz_dot_builder::traits::{DotBuildable, DotPrintable, GraphVizOutputFormat};
+   |                                    ^^^^^^^^^^^^  ^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::characterize::AutCharacterizable`
+  --> src/ui/commands/cli_nfa_experiment2.rs:35:5
+   |
+35 | use autour_core::traits::characterize::AutCharacterizable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::execution::trace::trace::TraceAction`
+  --> src/ui/commands/cli_nfa_experiment2.rs:37:5
+   |
+37 | use crate::core::execution::trace::trace::TraceAction;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::io::input::hif::interface::parse_hif_file`
+  --> src/ui/commands/cli_nfa_experiment2.rs:40:5
+   |
+40 | use crate::io::input::hif::interface::parse_hif_file;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `InteractionGraphicalRepresentation` and `draw_interaction`
+  --> src/ui/commands/cli_nfa_experiment2.rs:41:55
+   |
+41 | use crate::io::output::draw_interactions::interface::{draw_interaction, InteractionGraphicalRepresentation};
+   |                                                       ^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::experiments::run_nfa_generation_experiment`
+  --> src/ui/commands/cli_nfa_experiment2.rs:43:5
+   |
+43 | use crate::nfa_translation::experiments::run_nfa_generation_experiment;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `std::fs::File`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:19:5
+   |
+19 | use std::fs::File;
+   |     ^^^^^^^^^^^^^
+
+warning: unused import: `std::io::Write`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:20:5
+   |
+20 | use std::io::Write;
+   |     ^^^^^^^^^^^^^^
+
+warning: unused import: `Path`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:21:17
+   |
+21 | use std::path::{Path, PathBuf};
+   |                 ^^^^
+
+warning: unused import: `std::time::Instant`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:22:5
+   |
+22 | use std::time::Instant;
+   |     ^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::letter::AutAlphabetSubstitutable`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:23:5
+   |
+23 | use autour_core::traits::letter::AutAlphabetSubstitutable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::repr::AutGraphvizDrawable`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:24:5
+   |
+24 | use autour_core::traits::repr::AutGraphvizDrawable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::transform::AutTransformable`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:25:5
+   |
+25 | use autour_core::traits::transform::AutTransformable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::translate::AutTranslatable`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:26:5
+   |
+26 | use autour_core::traits::translate::AutTranslatable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::edge::edge::GraphVizEdge`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:30:5
+   |
+30 | use graphviz_dot_builder::edge::edge::GraphVizEdge;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::graph::graph::GraphVizDiGraph`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:31:5
+   |
+31 | use graphviz_dot_builder::graph::graph::GraphVizDiGraph;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::item::node::node::GraphVizNode`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:32:5
+   |
+32 | use graphviz_dot_builder::item::node::node::GraphVizNode;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `GraphvizNodeStyleItem` and `GvNodeShape`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:33:47
+   |
+33 | use graphviz_dot_builder::item::node::style::{GraphvizNodeStyleItem, GvNodeShape};
+   |                                               ^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^
+
+warning: unused imports: `DotBuildable`, `DotPrintable`, and `GraphVizOutputFormat`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:34:36
+   |
+34 | use graphviz_dot_builder::traits::{DotBuildable, DotPrintable, GraphVizOutputFormat};
+   |                                    ^^^^^^^^^^^^  ^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::execution::trace::trace::TraceAction`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:40:5
+   |
+40 | use crate::core::execution::trace::trace::TraceAction;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::io::input::hif::interface::parse_hif_file`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:46:5
+   |
+46 | use crate::io::input::hif::interface::parse_hif_file;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `InteractionGraphicalRepresentation` and `draw_interaction`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:47:55
+   |
+47 | use crate::io::output::draw_interactions::interface::{draw_interaction, InteractionGraphicalRepresentation};
+   |                                                       ^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::alphabet::get_alphabet_from_gen_ctx`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:49:5
+   |
+49 | use crate::nfa_translation::alphabet::get_alphabet_from_gen_ctx;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::experiments2::run_nfa_generation_experiment2`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:50:5
+   |
+50 | use crate::nfa_translation::experiments2::run_nfa_generation_experiment2;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::experiments::run_nfa_generation_experiment`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:51:5
+   |
+51 | use crate::nfa_translation::experiments::run_nfa_generation_experiment;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `std::fs::File`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:19:5
+   |
+19 | use std::fs::File;
+   |     ^^^^^^^^^^^^^
+
+warning: unused import: `std::io::Write`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:20:5
+   |
+20 | use std::io::Write;
+   |     ^^^^^^^^^^^^^^
+
+warning: unused import: `Path`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:21:17
+   |
+21 | use std::path::{Path, PathBuf};
+   |                 ^^^^
+
+warning: unused import: `std::time::Instant`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:22:5
+   |
+22 | use std::time::Instant;
+   |     ^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::letter::AutAlphabetSubstitutable`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:23:5
+   |
+23 | use autour_core::traits::letter::AutAlphabetSubstitutable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::repr::AutGraphvizDrawable`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:24:5
+   |
+24 | use autour_core::traits::repr::AutGraphvizDrawable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::transform::AutTransformable`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:25:5
+   |
+25 | use autour_core::traits::transform::AutTransformable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::translate::AutTranslatable`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:26:5
+   |
+26 | use autour_core::traits::translate::AutTranslatable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::edge::edge::GraphVizEdge`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:30:5
+   |
+30 | use graphviz_dot_builder::edge::edge::GraphVizEdge;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::graph::graph::GraphVizDiGraph`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:31:5
+   |
+31 | use graphviz_dot_builder::graph::graph::GraphVizDiGraph;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::item::node::node::GraphVizNode`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:32:5
+   |
+32 | use graphviz_dot_builder::item::node::node::GraphVizNode;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `GraphvizNodeStyleItem` and `GvNodeShape`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:33:47
+   |
+33 | use graphviz_dot_builder::item::node::style::{GraphvizNodeStyleItem, GvNodeShape};
+   |                                               ^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^
+
+warning: unused imports: `DotBuildable`, `DotPrintable`, and `GraphVizOutputFormat`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:34:36
+   |
+34 | use graphviz_dot_builder::traits::{DotBuildable, DotPrintable, GraphVizOutputFormat};
+   |                                    ^^^^^^^^^^^^  ^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::execution::trace::trace::TraceAction`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:40:5
+   |
+40 | use crate::core::execution::trace::trace::TraceAction;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::io::input::hif::interface::parse_hif_file`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:46:5
+   |
+46 | use crate::io::input::hif::interface::parse_hif_file;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `InteractionGraphicalRepresentation` and `draw_interaction`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:47:55
+   |
+47 | use crate::io::output::draw_interactions::interface::{draw_interaction, InteractionGraphicalRepresentation};
+   |                                                       ^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::alphabet::get_alphabet_from_gen_ctx`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:49:5
+   |
+49 | use crate::nfa_translation::alphabet::get_alphabet_from_gen_ctx;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::experiments2::run_nfa_generation_experiment2`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:50:5
+   |
+50 | use crate::nfa_translation::experiments2::run_nfa_generation_experiment2;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::experiments::run_nfa_generation_experiment`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:51:5
+   |
+51 | use crate::nfa_translation::experiments::run_nfa_generation_experiment;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/plantuml/automata_product.rs:17:34
+   |
+17 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `crate::core::language::involve::involves::InvolvesLifelines`
+  --> src/process/ana/handling/handler.rs:25:5
+   |
+25 | use crate::core::language::involve::involves::InvolvesLifelines;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `HashSet`
+  --> src/process/ana/handling/local_analysis.rs:18:34
+   |
+18 | use std::collections::{BTreeSet, HashSet};
+   |                                  ^^^^^^^
+
+warning: unused import: `crate::core::execution::semantics::execute::execute_interaction`
+  --> src/process/ana/handling/matches.rs:22:5
+   |
+22 | use crate::core::execution::semantics::execute::execute_interaction;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::execution::trace::multitrace::Trace`
+  --> src/process/ana/handling/matches.rs:25:5
+   |
+25 | use crate::core::execution::trace::multitrace::Trace;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused doc comment
+   --> src/process/ana/handling/matches.rs:232:9
+    |
+232 | /         /**
+233 | |          TODO: this new way of computing matches has allowed partial order readuction but it has broken
+234 | |          TODO: matching for synchronous communications (e.g., the <synch> keyword)
+235 | |          TODO: indeed, we match each individual head action to a frontier element
+236 | |          TODO: but with synchronous comm several distinct head actions can be matched together with a single frontier element
+237 | |          TODO: a quick fix is easy to do but still needs to be done
+238 | |          **/
+    | |____________^
+239 |           // ***
+240 |           let mut coloc_ids_to_frontier_elts : HashMap<usize,Vec<FrontierElement>> = hashmap!{};
+    |           -------------------------------------------------------------------------------------- rustdoc does not generate documentation for statements
+    |
+    = help: use `/* */` for a plain comment
+    = note: `#[warn(unused_doc_comments)]` on by default
+
+warning: unused import: `crate::core::execution::semantics::execute::execute_interaction`
+  --> src/process/canon/handling/handler.rs:22:5
+   |
+22 | use crate::core::execution::semantics::execute::execute_interaction;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::execution::semantics::frontier::global_frontier`
+  --> src/process/canon/handling/handler.rs:23:5
+   |
+23 | use crate::core::execution::semantics::frontier::global_frontier;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `GvNodeShape`
+  --> src/process/canon/loggers/glog/drawer.rs:23:70
+   |
+23 | use graphviz_dot_builder::item::node::style::{GraphvizNodeStyleItem, GvNodeShape};
+   |                                                                      ^^^^^^^^^^^
+
+warning: unused import: `graphviz_dot_builder::traits::DotBuildable`
+  --> src/process/canon/loggers/glog/drawer.rs:24:5
+   |
+24 | use graphviz_dot_builder::traits::DotBuildable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `graph_process_manager_core::manager::config::AbstractProcessParameterization`
+  --> src/process/canon/context.rs:17:5
+   |
+17 | use graph_process_manager_core::manager::config::AbstractProcessParameterization;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::transformation::transfokind::InteractionTransformationKind`
+  --> src/process/canon/context.rs:20:5
+   |
+20 | use crate::core::transformation::transfokind::InteractionTransformationKind;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::transformation::transfophase::InteractionTransformationPhase`
+  --> src/process/canon/context.rs:21:5
+   |
+21 | use crate::core::transformation::transfophase::InteractionTransformationPhase;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::execution::trace::trace::TraceAction`
+  --> src/process/canon/priorities.rs:22:5
+   |
+22 | use crate::core::execution::trace::trace::TraceAction;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::process::explo::step::ExplorationStepKind`
+  --> src/process/canon/priorities.rs:24:5
+   |
+24 | use crate::process::explo::step::ExplorationStepKind;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::execution::semantics::frontier::FrontierElement`
+  --> src/process/canon/step.rs:17:5
+   |
+17 | use crate::core::execution::semantics::frontier::FrontierElement;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: variant `accepted` should have an upper camel case name
+  --> src/loggers/tracegen/printer.rs:28:5
+   |
+28 |     accepted,   // generate a trace file only for exactly accepted traces
+   |     ^^^^^^^^ help: convert the identifier to upper camel case: `Accepted`
+   |
+   = note: `#[warn(non_camel_case_types)]` on by default
+
+warning: variant `atExactDepth` should have an upper camel case name
+  --> src/loggers/tracegen/printer.rs:30:5
+   |
+30 |     atExactDepth(u32), // generate a trace file for nodes at a specific depth
+   |     ^^^^^^^^^^^^ help: convert the identifier to upper camel case: `AtExactDepth`
+
+warning: variant `atDepthModulo` should have an upper camel case name
+  --> src/loggers/tracegen/printer.rs:31:5
+   |
+31 |     atDepthModulo(u32) // same but for all depths equals 0 modulo smth
+   |     ^^^^^^^^^^^^^ help: convert the identifier to upper camel case: `AtDepthModulo`
+
+warning: unnecessary trailing semicolon
+  --> src/trace_manip/mutate/swap_component.rs:57:64
+   |
+57 |     return path.into_os_string().to_str().unwrap().to_string();;
+   |                                                                ^ help: remove this semicolon
+   |
+   = note: `#[warn(redundant_semicolons)]` on by default
+
+warning: unused import: `TraceActionKind`
+  --> src/nfa_translation/compositional.rs:25:57
+   |
+25 | use crate::core::execution::trace::trace::{TraceAction, TraceActionKind};
+   |                                                         ^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::process::explo::loggers::nfait::printer::ActionNFAITPrinter`
+  --> src/nfa_translation/compositional.rs:29:5
+   |
+29 | use crate::process::explo::loggers::nfait::printer::ActionNFAITPrinter;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `format` and `write`
+  --> src/nfa_translation/experiments2.rs:19:16
+   |
+19 | use std::fmt::{format, Formatter, write};
+   |                ^^^^^^             ^^^^^
+
+warning: unused import: `std::time::Instant`
+  --> src/nfa_translation/experiments2.rs:21:5
+   |
+21 | use std::time::Instant;
+   |     ^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::dfa::dfa::AutDFA`
+  --> src/nfa_translation/experiments2.rs:22:5
+   |
+22 | use autour_core::dfa::dfa::AutDFA;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::transform::AutTransformable`
+  --> src/nfa_translation/experiments2.rs:24:5
+   |
+24 | use autour_core::traits::transform::AutTransformable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::translate::AutTranslatable`
+  --> src/nfa_translation/experiments2.rs:25:5
+   |
+25 | use autour_core::traits::translate::AutTranslatable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `itertools::max`
+  --> src/nfa_translation/experiments2.rs:26:5
+   |
+26 | use itertools::max;
+   |     ^^^^^^^^^^^^^^
+
+warning: unused import: `ThreadRng`
+  --> src/nfa_translation/experiments2.rs:27:26
+   |
+27 | use rand::rngs::{StdRng, ThreadRng};
+   |                          ^^^^^^^^^
+
+warning: unused import: `Rng`
+  --> src/nfa_translation/experiments2.rs:28:12
+   |
+28 | use rand::{Rng, SeedableRng};
+   |            ^^^
+
+warning: unused import: `crate::nfa_translation::canonize::canonize_interaction`
+  --> src/nfa_translation/experiments2.rs:41:5
+   |
+41 | use crate::nfa_translation::canonize::canonize_interaction;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::process::canon::param::default::DefaultCanonizationProcess`
+  --> src/nfa_translation/experiments2.rs:44:5
+   |
+44 | use crate::process::canon::param::default::DefaultCanonizationProcess;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unnecessary parentheses around assigned value
+   --> src/nfa_translation/experiments2.rs:384:41
+    |
+384 | ...                   let cond1 = (*imetrics.symbols.get(&SymbolKind::Action).unwrap() < 50);
+    |                                   ^                                                        ^
+    |
+help: remove these parentheses
+    |
+384 -                             let cond1 = (*imetrics.symbols.get(&SymbolKind::Action).unwrap() < 50);
+384 +                             let cond1 = *imetrics.symbols.get(&SymbolKind::Action).unwrap() < 50;
+    |
+
+warning: unnecessary parentheses around block return value
+   --> src/nfa_translation/experiments2.rs:387:37
+    |
+387 | ...                   (*imetrics.symbols.get(&SymbolKind::Par).unwrap() <= 3)
+    |                       ^                                                     ^
+    |
+help: remove these parentheses
+    |
+387 -                                     (*imetrics.symbols.get(&SymbolKind::Par).unwrap() <= 3)
+387 +                                     *imetrics.symbols.get(&SymbolKind::Par).unwrap() <= 3
+    |
+
+warning: unused import: `HashSet`
+  --> src/experiments/interaction_random_gen/probas.rs:18:33
+   |
+18 | use std::collections::{HashMap, HashSet};
+   |                                 ^^^^^^^
+
+warning: unused import: `SliceRandom`
+  --> src/experiments/interaction_random_gen/probas.rs:21:21
+   |
+21 | use rand::prelude::{SliceRandom, StdRng};
+   |                     ^^^^^^^^^^^
+
+warning: unused import: `crate::core::general_context::GeneralContext`
+  --> src/experiments/interaction_random_gen/probas.rs:23:5
+   |
+23 | use crate::core::general_context::GeneralContext;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `CommunicationSynchronicity`, `EmissionAction`, and `ReceptionAction`
+  --> src/experiments/interaction_random_gen/probas.rs:24:45
+   |
+24 | use crate::core::language::syntax::action::{CommunicationSynchronicity, EmissionAction, ReceptionAction};
+   |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^
+
+warning: unused imports: `Interaction` and `LoopKind`
+  --> src/experiments/interaction_random_gen/probas.rs:25:50
+   |
+25 | use crate::core::language::syntax::interaction::{Interaction, LoopKind};
+   |                                                  ^^^^^^^^^^^  ^^^^^^^^
+
+warning: unused import: `crate::core::language::syntax::metrics::SymbolKind`
+  --> src/experiments/interaction_random_gen/probas.rs:26:5
+   |
+26 | use crate::core::language::syntax::metrics::SymbolKind;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `HashMap` and `HashSet`
+  --> src/experiments/interaction_random_gen/gen.rs:18:24
+   |
+18 | use std::collections::{HashMap, HashSet};
+   |                        ^^^^^^^  ^^^^^^^
+
+warning: unused import: `std::hash::Hash`
+  --> src/experiments/interaction_random_gen/gen.rs:19:5
+   |
+19 | use std::hash::Hash;
+   |     ^^^^^^^^^^^^^^^
+
+warning: unused imports: `InteractionMetrics` and `SymbolKind`
+  --> src/experiments/interaction_random_gen/gen.rs:27:46
+   |
+27 | use crate::core::language::syntax::metrics::{InteractionMetrics, SymbolKind};
+   |                                              ^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::alphabet::get_alphabet_from_gen_ctx`
+  --> src/experiments/interaction_random_gen/gen.rs:29:5
+   |
+29 | use crate::nfa_translation::alphabet::get_alphabet_from_gen_ctx;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::experiments2::NfaMetrics`
+  --> src/experiments/interaction_random_gen/gen.rs:30:5
+   |
+30 | use crate::nfa_translation::experiments2::NfaMetrics;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::get_nfa_from_logger::get_nfa_from_interaction_exploration`
+  --> src/experiments/interaction_random_gen/gen.rs:31:5
+   |
+31 | use crate::nfa_translation::get_nfa_from_logger::get_nfa_from_interaction_exploration;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `std::collections::BTreeSet`
+  --> src/experiments/interaction_random_gen/interface.rs:19:5
+   |
+19 | use std::collections::BTreeSet;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::execution::trace::trace::TraceAction`
+  --> src/experiments/interaction_random_gen/interface.rs:22:5
+   |
+22 | use crate::core::execution::trace::trace::TraceAction;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::nfa_translation::experiments2::NfaGenerationExperiment2ResultMetrics`
+  --> src/experiments/interaction_random_gen/interface.rs:30:5
+   |
+30 | use crate::nfa_translation::experiments2::NfaGenerationExperiment2ResultMetrics;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `CommunicationSynchronicity` and `EmissionAction`
+  --> src/experiments/parstrict_interaction_generation.rs:19:45
+   |
+19 | use crate::core::language::syntax::action::{CommunicationSynchronicity, EmissionAction};
+   |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::general_context::GeneralContext`
+  --> src/experiments/doors_interactions_generation.rs:19:5
+   |
+19 | use crate::core::general_context::GeneralContext;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `CommunicationSynchronicity` and `EmissionAction`
+  --> src/experiments/loopalt_interaction_generation.rs:19:45
+   |
+19 | use crate::core::language::syntax::action::{CommunicationSynchronicity, EmissionAction};
+   |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::general_context::GeneralContext`
+  --> src/main.rs:45:5
+   |
+45 | use crate::core::general_context::GeneralContext;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `CommunicationSynchronicity`, `EmissionAction`, and `EmissionTargetRef`
+  --> src/main.rs:46:45
+   |
+46 | use crate::core::language::syntax::action::{CommunicationSynchronicity, EmissionAction, EmissionTargetRef};
+   |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^
+
+warning: unused import: `crate::core::language::syntax::interaction::Interaction`
+  --> src/main.rs:47:5
+   |
+47 | use crate::core::language::syntax::interaction::Interaction;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `InteractionGraphicalRepresentation` and `draw_interaction`
+  --> src/main.rs:48:55
+   |
+48 | use crate::io::output::draw_interactions::interface::{draw_interaction, InteractionGraphicalRepresentation};
+   |                                                       ^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::characterize::AutCharacterizable`
+  --> src/ui/commands/cli_rng_gen_interactions.rs:36:5
+   |
+36 | use autour_core::traits::characterize::AutCharacterizable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: unused import: `autour_core::traits::characterize::AutCharacterizable`
+  --> src/ui/commands/cli_rng_gen_raw_interactions.rs:36:5
+   |
+36 | use autour_core::traits::characterize::AutCharacterizable;
+   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:139:22
+    |
+139 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                      ----^^^
+    |                      |
+    |                      help: remove this `mut`
+    |
+    = note: `#[warn(unused_mut)]` on by default
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:139:30
+    |
+139 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                              ----^^^
+    |                              |
+    |                              help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:146:22
+    |
+146 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                      ----^^^
+    |                      |
+    |                      help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:146:30
+    |
+146 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                              ----^^^
+    |                              |
+    |                              help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:153:22
+    |
+153 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                      ----^^^
+    |                      |
+    |                      help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:153:30
+    |
+153 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                              ----^^^
+    |                              |
+    |                              help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:160:22
+    |
+160 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                      ----^^^
+    |                      |
+    |                      help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:160:30
+    |
+160 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                              ----^^^
+    |                              |
+    |                              help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:167:22
+    |
+167 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                      ----^^^
+    |                      |
+    |                      help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:167:30
+    |
+167 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                              ----^^^
+    |                              |
+    |                              help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:177:22
+    |
+177 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                      ----^^^
+    |                      |
+    |                      help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/core/language/syntax/interaction.rs:177:30
+    |
+177 |                 let (mut em2,mut rc2) = i2.contained_model_actions();
+    |                              ----^^^
+    |                              |
+    |                              help: remove this `mut`
+
+warning: unused variable: `new_i`
+  --> src/core/language/prune/interaction.rs:79:21
+   |
+79 |                 let new_i : Interaction;
+   |                     ^^^^^ help: if this is intentional, prefix it with an underscore: `_new_i`
+   |
+   = note: `#[warn(unused_variables)]` on by default
+
+warning: unreachable pattern
+   --> src/core/language/ord/interaction.rs:231:13
+    |
+231 |             (Interaction::And(_,_),_) => {
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^ no value can reach this
+    |
+note: multiple earlier patterns match some of the same values
+   --> src/core/language/ord/interaction.rs:231:13
+    |
+30  |             (_,Interaction::Empty) => {
+    |             ---------------------- matches some of the same values
+...
+40  |             (_,Interaction::Emission(_)) => {
+    |             ---------------------------- matches some of the same values
+...
+50  |             (_,Interaction::Reception(_)) => {
+    |             ----------------------------- matches some of the same values
+...
+68  |             (_,Interaction::Par(_,_)) => {
+    |             ------------------------- matches some of the same values
+...
+231 |             (Interaction::And(_,_),_) => {
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^ ...and 7 other patterns collectively make this unreachable
+    = note: `#[warn(unreachable_patterns)]` on by default
+
+warning: unreachable pattern
+   --> src/core/language/ord/interaction.rs:234:13
+    |
+234 |             (_,Interaction::And(_,_)) => {
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^ no value can reach this
+    |
+note: multiple earlier patterns match some of the same values
+   --> src/core/language/ord/interaction.rs:234:13
+    |
+27  |             (Interaction::Empty,_) => {
+    |             ---------------------- matches some of the same values
+...
+37  |             (Interaction::Emission(_),_) => {
+    |             ---------------------------- matches some of the same values
+...
+47  |             (Interaction::Reception(_),_) => {
+    |             ----------------------------- matches some of the same values
+...
+65  |             (Interaction::Par(_,_),_) => {
+    |             ------------------------- matches some of the same values
+...
+234 |             (_,Interaction::And(_,_)) => {
+    |             ^^^^^^^^^^^^^^^^^^^^^^^^^ ...and 7 other patterns collectively make this unreachable
+
+warning: unused variable: `sk`
+  --> src/core/transformation/transfofunc/loop_simpl.rs:23:32
+   |
+23 |         &Interaction::Loop(ref sk, ref i1) => {
+   |                                ^^ help: if this is intentional, prefix it with an underscore: `_sk`
+
+warning: unused variable: `i1`
+   --> src/core/execution/trace/from_model/interaction.rs:121:35
+    |
+121 |             &Interaction::Loop(_, i1) => {
+    |                                   ^^ help: if this is intentional, prefix it with an underscore: `_i1`
+
+warning: unused variable: `i1`
+   --> src/core/execution/trace/from_model/interaction.rs:200:35
+    |
+200 |             &Interaction::Loop(_, i1) => {
+    |                                   ^^ help: if this is intentional, prefix it with an underscore: `_i1`
+
+warning: variable does not need to be mutable
+   --> src/core/execution/semantics/execute.rs:340:34
+    |
+340 |                     let (Agot_i1,mut Aaff1) = i1.prune_with_affected(&tar_lf_ids);
+    |                                  ----^^^^^
+    |                                  |
+    |                                  help: remove this `mut`
+
+warning: variable does not need to be mutable
+  --> src/core/colocalizations.rs:35:13
+   |
+35 |         let mut all_lfs : BTreeSet<usize> = BTreeSet::from_iter((0..lf_num).collect::<Vec<usize>>().iter().cloned());
+   |             ----^^^^^^^
+   |             |
+   |             help: remove this `mut`
+
+warning: variable `display_subprocesses` is assigned to, but never used
+  --> src/io/input/hcf/loggers/graphviz.rs:47:13
+   |
+47 |     let mut display_subprocesses = true;
+   |             ^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: consider using `_display_subprocesses` instead
+
+warning: value assigned to `display_subprocesses` is never read
+   --> src/io/input/hcf/loggers/graphviz.rs:116:33
+    |
+116 | ...                   display_subprocesses = true;
+    |                       ^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+    = note: `#[warn(unused_assignments)]` on by default
+
+warning: value assigned to `display_subprocesses` is never read
+   --> src/io/input/hcf/loggers/graphviz.rs:119:33
+    |
+119 | ...                   display_subprocesses = false;
+    |                       ^^^^^^^^^^^^^^^^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: unused variable: `file_name`
+  --> src/io/input/hcf/loggers/tracegen.rs:43:67
+   |
+43 | ...                   file_name : &str,
+   |                       ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_file_name`
+
+warning: unused variable: `file_name`
+  --> src/io/input/hcf/loggers/nfait.rs:39:27
+   |
+39 |                           file_name : &str,
+   |                           ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_file_name`
+
+warning: unused variable: `logger_kind_pair`
+  --> src/io/input/hcf/loggers/nfait.rs:40:27
+   |
+40 |                           logger_kind_pair : Pair<Rule>)
+   |                           ^^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_logger_kind_pair`
+
+warning: unused variable: `gen_ctx`
+  --> src/io/input/hcf/canon/options.rs:75:31
+   |
+75 | pub fn parse_canonize_options(gen_ctx: &GeneralContext,
+   |                               ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_gen_ctx`
+
+warning: variable does not need to be mutable
+  --> src/io/input/hif/action/act_targets.rs:98:17
+   |
+98 |             let mut inner_contents = inner_pair.into_inner();
+   |                 ----^^^^^^^^^^^^^^
+   |                 |
+   |                 help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/io/input/hif/interaction.rs:115:25
+    |
+115 |                     let mut inner_contents = coreg_lfs_pair.into_inner();
+    |                         ----^^^^^^^^^^^^^^
+    |                         |
+    |                         help: remove this `mut`
+
+warning: unused variable: `status`
+  --> src/io/output/draw_interactions/as_term/interface.rs:49:9
+   |
+49 |     let status = Command::new("dot")
+   |         ^^^^^^ help: if this is intentional, prefix it with an underscore: `_status`
+
+warning: unused variable: `msg_to_print_width`
+  --> src/io/output/draw_interactions/as_sd/action_repr/emission.rs:57:9
+   |
+57 |     let msg_to_print_width = TextToPrint::get_text_width(&msg_to_print,&get_hibou_font(), &HIBOU_FONT_SCALE);
+   |         ^^^^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_msg_to_print_width`
+
+warning: unused variable: `target_gt_id`
+   --> src/io/output/draw_interactions/as_sd/action_repr/emission.rs:120:41
+    |
+120 |                 EmissionTargetRef::Gate(target_gt_id) => {
+    |                                         ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_target_gt_id`
+
+warning: unused variable: `tar_gt_id`
+   --> src/io/output/draw_interactions/as_sd/action_repr/emission.rs:175:45
+    |
+175 |                     EmissionTargetRef::Gate(tar_gt_id) => {
+    |                                             ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_tar_gt_id`
+
+warning: unused variable: `msg_to_print_width`
+  --> src/io/output/draw_interactions/as_sd/action_repr/reception.rs:56:9
+   |
+56 |     let msg_to_print_width = TextToPrint::get_text_width(&msg_to_print,
+   |         ^^^^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_msg_to_print_width`
+
+warning: unused variable: `img_width`
+  --> src/io/output/draw_interactions/as_sd/action_repr/reception.rs:60:10
+   |
+60 |     let (img_width,_) = image.dimensions();
+   |          ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_img_width`
+
+warning: unused variable: `orig_gt_id`
+  --> src/io/output/draw_interactions/as_sd/action_repr/reception.rs:84:15
+   |
+84 |         Some( orig_gt_id ) => {
+   |               ^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_orig_gt_id`
+
+warning: variable does not need to be mutable
+   --> src/io/output/draw_interactions/as_sd/interaction_repr/img_content.rs:144:9
+    |
+144 |     let mut y_drafts : Vec<u32> = [start_y,end_y].to_vec();
+    |         ----^^^^^^^^
+    |         |
+    |         help: remove this `mut`
+
+warning: unused variable: `max_y_shift`
+  --> src/io/output/draw_interactions/as_sd/interaction_repr/img_frame.rs:39:79
+   |
+39 | pub fn draw_frame(image : &mut RgbImage, img_width : &f32, img_height : &f32, max_y_shift : usize) {
+   |                                                                               ^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_max_y_shift`
+
+warning: variable does not need to be mutable
+  --> src/io/output/draw_interactions/as_sd/interaction_repr/interaction.rs:53:9
+   |
+53 |     let mut inner_height : f32 = (max_y_shift as f32)*VERTICAL_SIZE;
+   |         ----^^^^^^^^^^^^
+   |         |
+   |         help: remove this `mut`
+
+warning: unused variable: `lf_ids`
+   --> src/io/output/draw_traces/implem/ext_mu.rs:131:19
+    |
+131 |     for (canal_id,lf_ids) in co_localizations.locs_lf_ids.iter().enumerate() {
+    |                   ^^^^^^ help: if this is intentional, prefix it with an underscore: `_lf_ids`
+
+warning: variable does not need to be mutable
+  --> src/io/output/draw_transitions/draw_firing.rs:43:9
+   |
+43 |     let mut text_lines : Vec<Vec<TextToPrint>> = Vec::new();
+   |         ----^^^^^^^^^^
+   |         |
+   |         help: remove this `mut`
+
+warning: unused variable: `int_name`
+   --> src/ui/commands/cli_nfa_experiment.rs:111:29
+    |
+111 |                         let int_name = format!("{}_int",file_name);
+    |                             ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_int_name`
+
+warning: unused variable: `orig_nfa_name`
+   --> src/ui/commands/cli_nfa_experiment.rs:112:29
+    |
+112 |                         let orig_nfa_name = format!("{}_orig_nfa",file_name);
+    |                             ^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_orig_nfa_name`
+
+warning: unused variable: `min_nfa_name`
+   --> src/ui/commands/cli_nfa_experiment.rs:113:29
+    |
+113 |                         let min_nfa_name = format!("{}_mini_nfa",file_name);
+    |                             ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_min_nfa_name`
+
+warning: unused variable: `compositional_nfa_name`
+  --> src/ui/commands/cli_glosem.rs:60:25
+   |
+60 |                     let compositional_nfa_name = format!("{}_compositional_nfa",file_name);
+   |                         ^^^^^^^^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_compositional_nfa_name`
+
+warning: unused variable: `title`
+  --> src/plantuml/sequence.rs:26:24
+   |
+26 |                        title : &str,
+   |                        ^^^^^ help: if this is intentional, prefix it with an underscore: `_title`
+
+warning: unused variable: `title`
+  --> src/plantuml/automata_product.rs:27:24
+   |
+27 |                        title : &str,
+   |                        ^^^^^ help: if this is intentional, prefix it with an underscore: `_title`
+
+warning: unused variable: `kind`
+   --> src/plantuml/automata_product.rs:150:32
+    |
+150 |         &Interaction::Loop(ref kind, ref i1) => {
+    |                                ^^^^ help: if this is intentional, prefix it with an underscore: `_kind`
+
+warning: unused variable: `context`
+  --> src/process/explo/handling/handler.rs:36:25
+   |
+36 |     fn process_new_step(context: &ExplorationContext,
+   |                         ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/explo/handling/handler.rs:37:25
+   |
+37 |                         param : &ExplorationParameterization,
+   |                         ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `new_state_id`
+  --> src/process/explo/handling/handler.rs:40:25
+   |
+40 |                         new_state_id: u32,
+   |                         ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_new_state_id`
+
+warning: unused variable: `node_counter`
+  --> src/process/explo/handling/handler.rs:41:25
+   |
+41 |                         node_counter: u32) -> ExplorationNodeKind {
+   |                         ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_node_counter`
+
+warning: unused variable: `context`
+  --> src/process/explo/handling/handler.rs:54:22
+   |
+54 |     fn get_criterion(context: &ExplorationContext,
+   |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/explo/handling/handler.rs:55:22
+   |
+55 |                      param : &ExplorationParameterization,
+   |                      ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `new_state_id`
+  --> src/process/explo/handling/handler.rs:58:22
+   |
+58 |                      new_state_id: u32,
+   |                      ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_new_state_id`
+
+warning: unused variable: `node_counter`
+  --> src/process/explo/handling/handler.rs:59:22
+   |
+59 |                      node_counter: u32) -> ExplorationFilterCriterion {
+   |                      ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_node_counter`
+
+warning: unused variable: `context`
+  --> src/process/explo/handling/handler.rs:68:27
+   |
+68 |     fn collect_next_steps(context: &ExplorationContext,
+   |                           ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/explo/handling/handler.rs:69:27
+   |
+69 |                           param : &ExplorationParameterization,
+   |                           ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `context`
+  --> src/process/explo/loggers/slog/printer.rs:33:27
+   |
+33 |                           context: &ExplorationContext,
+   |                           ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/explo/loggers/slog/printer.rs:34:27
+   |
+34 |                           param: &ExplorationParameterization,
+   |                           ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `node`
+  --> src/process/explo/loggers/slog/printer.rs:35:27
+   |
+35 |                           node: &ExplorationNodeKind) -> TraceGenLoggerObject {
+   |                           ^^^^ help: if this is intentional, prefix it with an underscore: `_node`
+
+warning: unused variable: `context`
+  --> src/process/explo/loggers/slog/printer.rs:40:27
+   |
+40 |                           context: &ExplorationContext,
+   |                           ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/explo/loggers/slog/printer.rs:41:27
+   |
+41 |                           param: &ExplorationParameterization,
+   |                           ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `context`
+  --> src/process/explo/loggers/slog/printer.rs:52:37
+   |
+52 | ...                   context: &ExplorationContext,
+   |                       ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/explo/loggers/slog/printer.rs:53:37
+   |
+53 | ...                   param: &ExplorationParameterization,
+   |                       ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `param`
+  --> src/process/explo/loggers/slog/printer.rs:61:21
+   |
+61 |                     param: &ExplorationParameterization,
+   |                     ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `letter`
+  --> src/process/explo/loggers/nfait/printer.rs:69:44
+   |
+69 |     fn is_letter_string_repr_atomic(&self, letter: &usize) -> bool {
+   |                                            ^^^^^^ help: if this is intentional, prefix it with an underscore: `_letter`
+
+warning: unused variable: `use_html`
+  --> src/process/explo/loggers/nfait/printer.rs:85:43
+   |
+85 |     fn get_concatenation_separator(&self, use_html: bool) -> &'static str {
+   |                                           ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_use_html`
+
+warning: unused variable: `use_html`
+  --> src/process/explo/loggers/nfait/printer.rs:89:41
+   |
+89 |     fn get_alternation_separator(&self, use_html: bool) -> &'static str {
+   |                                         ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_use_html`
+
+warning: unused variable: `context`
+   --> src/process/explo/loggers/nfait/printer.rs:133:25
+    |
+133 |                         context: &ExplorationContext,
+    |                         ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+   --> src/process/explo/loggers/nfait/printer.rs:134:25
+    |
+134 |                         param: &ExplorationParameterization,
+    |                         ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `context`
+   --> src/process/explo/loggers/nfait/printer.rs:149:22
+    |
+149 |                      context: &ExplorationContext,
+    |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+   --> src/process/explo/loggers/nfait/printer.rs:150:22
+    |
+150 |                      param: &ExplorationParameterization,
+    |                      ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `goal`
+  --> src/process/explo/verdict/global.rs:72:24
+   |
+72 |                        goal: &Option<Self>) -> bool {
+   |                        ^^^^ help: if this is intentional, prefix it with an underscore: `_goal`
+
+warning: unused variable: `has_filtered_nodes`
+  --> src/process/explo/verdict/global.rs:77:47
+   |
+77 | ...                   has_filtered_nodes: bool) -> Self {
+   |                       ^^^^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_has_filtered_nodes`
+
+warning: unused variable: `new_state_id`
+  --> src/process/ana/handling/handler.rs:47:25
+   |
+47 |                         new_state_id: u32,
+   |                         ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_new_state_id`
+
+warning: unused variable: `node_counter`
+  --> src/process/ana/handling/handler.rs:48:25
+   |
+48 |                         node_counter: u32) -> AnalysisNodeKind {
+   |                         ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_node_counter`
+
+warning: unused variable: `context`
+  --> src/process/ana/handling/handler.rs:77:22
+   |
+77 |     fn get_criterion(context: &AnalysisContext,
+   |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/ana/handling/handler.rs:78:22
+   |
+78 |                      param : &AnalysisParameterization,
+   |                      ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `new_state_id`
+  --> src/process/ana/handling/handler.rs:81:22
+   |
+81 |                      new_state_id: u32,
+   |                      ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_new_state_id`
+
+warning: unused variable: `node_counter`
+  --> src/process/ana/handling/handler.rs:82:22
+   |
+82 |                      node_counter: u32) -> AnalysisFilterCriterion {
+   |                      ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_node_counter`
+
+warning: unused variable: `context`
+   --> src/process/ana/handling/handler.rs:301:44
+    |
+301 |     fn pursue_process_after_static_verdict(context: &AnalysisContext,
+    |                                            ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+   --> src/process/ana/handling/handler.rs:302:44
+    |
+302 | ...                   param : &AnalysisParameterization,
+    |                       ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `interaction`
+  --> src/process/ana/handling/matches.rs:42:30
+   |
+42 | ...                   interaction : &Interaction,
+   |                       ^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_interaction`
+
+warning: value assigned to `gotit` is never read
+   --> src/process/ana/handling/matches.rs:134:25
+    |
+134 |                         gotit = true;
+    |                         ^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: value assigned to `gotit` is never read
+   --> src/process/ana/handling/matches.rs:139:29
+    |
+139 | ...                   gotit = true;
+    |                       ^^^^^
+    |
+    = help: maybe it is overwritten before being read?
+
+warning: unused variable: `algo_uses_lifeline_removal_steps`
+   --> src/process/ana/handling/matches.rs:228:43
+    |
+228 | ...                   algo_uses_lifeline_removal_steps : bool,
+    |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_algo_uses_lifeline_removal_steps`
+
+warning: unused variable: `param`
+   --> src/process/ana/loggers/glog/drawer.rs:131:25
+    |
+131 |                         param : &AnalysisParameterization,
+    |                         ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `context`
+  --> src/process/ana/loggers/slog/printer.rs:35:27
+   |
+35 |                           context: &AnalysisContext,
+   |                           ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/ana/loggers/slog/printer.rs:36:27
+   |
+36 |                           param: &AnalysisParameterization,
+   |                           ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `node`
+  --> src/process/ana/loggers/slog/printer.rs:37:27
+   |
+37 |                           node: &AnalysisNodeKind) -> TraceGenLoggerObject {
+   |                           ^^^^ help: if this is intentional, prefix it with an underscore: `_node`
+
+warning: unused variable: `context`
+  --> src/process/ana/loggers/slog/printer.rs:42:27
+   |
+42 |                           context: &AnalysisContext,
+   |                           ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/ana/loggers/slog/printer.rs:43:27
+   |
+43 |                           param: &AnalysisParameterization,
+   |                           ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `context`
+  --> src/process/ana/loggers/slog/printer.rs:57:37
+   |
+57 | ...                   context: &AnalysisContext,
+   |                       ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/ana/loggers/slog/printer.rs:58:37
+   |
+58 | ...                   param: &AnalysisParameterization,
+   |                       ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `param`
+  --> src/process/ana/loggers/slog/printer.rs:66:21
+   |
+66 |                     param: &AnalysisParameterization,
+   |                     ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `i`
+  --> src/process/ana/node/flags.rs:70:13
+   |
+70 |         for i in 0..canals_num {
+   |             ^ help: if this is intentional, prefix it with an underscore: `_i`
+
+warning: unused variable: `gen_ctx`
+   --> src/process/ana/node/flags.rs:144:27
+    |
+144 |                           gen_ctx : &GeneralContext,
+    |                           ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_gen_ctx`
+
+warning: unused variable: `consu_set`
+  --> src/process/ana/priorities.rs:74:55
+   |
+74 |             AnalysisStepKind::Execute(ref frt_elt,ref consu_set,ref sim_map) => {
+   |                                                       ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_consu_set`
+
+warning: unused variable: `depth`
+  --> src/process/canon/filter/filter.rs:44:21
+   |
+44 |                     depth: u32,
+   |                     ^^^^^ help: if this is intentional, prefix it with an underscore: `_depth`
+
+warning: unused variable: `node_counter`
+  --> src/process/canon/filter/filter.rs:45:21
+   |
+45 |                     node_counter: u32,
+   |                     ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_node_counter`
+
+warning: unused variable: `criterion`
+  --> src/process/canon/filter/filter.rs:46:21
+   |
+46 |                     criterion: &CanonizationFilterCriterion) -> Option<CanonizationFilterEliminationKind> {
+   |                     ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_criterion`
+
+warning: unused variable: `context`
+  --> src/process/canon/handling/handler.rs:37:25
+   |
+37 |     fn process_new_step(context: &CanonizationContext,
+   |                         ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/canon/handling/handler.rs:38:25
+   |
+38 |                         param : &CanonizationParameterization,
+   |                         ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `new_state_id`
+  --> src/process/canon/handling/handler.rs:41:25
+   |
+41 |                         new_state_id: u32,
+   |                         ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_new_state_id`
+
+warning: unused variable: `node_counter`
+  --> src/process/canon/handling/handler.rs:42:25
+   |
+42 |                         node_counter: u32) -> CanonizationNodeKind {
+   |                         ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_node_counter`
+
+warning: unused variable: `context`
+  --> src/process/canon/handling/handler.rs:53:22
+   |
+53 |     fn get_criterion(context: &CanonizationContext,
+   |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `param`
+  --> src/process/canon/handling/handler.rs:54:22
+   |
+54 |                      param : &CanonizationParameterization,
+   |                      ^^^^^ help: if this is intentional, prefix it with an underscore: `_param`
+
+warning: unused variable: `parent_state`
+  --> src/process/canon/handling/handler.rs:55:22
+   |
+55 |                      parent_state: &GenericNode<CanonizationNodeKind>,
+   |                      ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_parent_state`
+
+warning: unused variable: `step_to_process`
+  --> src/process/canon/handling/handler.rs:56:22
+   |
+56 |                      step_to_process: &GenericStep<CanonizationStepKind>,
+   |                      ^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_step_to_process`
+
+warning: unused variable: `new_state_id`
+  --> src/process/canon/handling/handler.rs:57:22
+   |
+57 |                      new_state_id: u32,
+   |                      ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_new_state_id`
+
+warning: unused variable: `node_counter`
+  --> src/process/canon/handling/handler.rs:58:22
+   |
+58 |                      node_counter: u32) -> CanonizationFilterCriterion {
+   |                      ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_node_counter`
+
+warning: unused variable: `context`
+  --> src/process/canon/handling/handler.rs:62:27
+   |
+62 |     fn collect_next_steps(context: &CanonizationContext,
+   |                           ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `node_kind`
+  --> src/process/canon/handling/handler.rs:93:47
+   |
+93 | ...                   node_kind: &mut CanonizationNodeKind)
+   |                       ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_node_kind`
+
+warning: unused variable: `loc_verd`
+   --> src/process/canon/handling/handler.rs:100:44
+    |
+100 | ...                   loc_verd: &CanonizationLocalVerdict) -> bool {
+    |                       ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_loc_verd`
+
+warning: unused variable: `local_verdict`
+  --> src/process/canon/loggers/glog/drawer.rs:46:26
+   |
+46 |                          local_verdict: &CanonizationLocalVerdict) -> GraphvizColor {
+   |                          ^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_local_verdict`
+
+warning: unused variable: `parent_state_id`
+  --> src/process/canon/loggers/glog/drawer.rs:53:42
+   |
+53 | ...                   parent_state_id: u32,
+   |                       ^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_parent_state_id`
+
+warning: unused variable: `verdict`
+  --> src/process/canon/loggers/glog/drawer.rs:54:42
+   |
+54 | ...                   verdict: &CanonizationLocalVerdict,
+   |                       ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_verdict`
+
+warning: unused variable: `context`
+  --> src/process/canon/loggers/glog/drawer.rs:60:25
+   |
+60 |                         context: &CanonizationContext,
+   |                         ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `context`
+   --> src/process/canon/loggers/glog/drawer.rs:106:35
+    |
+106 | ...                   context: &CanonizationContext,
+    |                       ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_context`
+
+warning: unused variable: `new_state_id`
+   --> src/process/canon/loggers/glog/drawer.rs:108:35
+    |
+108 | ...                   new_state_id: u32,
+    |                       ^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_new_state_id`
+
+warning: unused variable: `new_node`
+   --> src/process/canon/loggers/glog/drawer.rs:109:35
+    |
+109 | ...                   new_node: &CanonizationNodeKind) -> GraphVizNode {
+    |                       ^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_new_node`
+
+warning: unused variable: `id`
+   --> src/process/canon/loggers/glog/drawer.rs:130:30
+    |
+130 |     fn get_verdict_id(&self, id: u32) -> String {
+    |                              ^^ help: if this is intentional, prefix it with an underscore: `_id`
+
+warning: unused variable: `id`
+   --> src/process/canon/loggers/glog/drawer.rs:134:39
+    |
+134 |     fn get_static_analysis_ids(&self, id: u32) -> (String, String) {
+    |                                       ^^ help: if this is intentional, prefix it with an underscore: `_id`
+
+warning: unused variable: `goal`
+  --> src/process/canon/verdict/global.rs:53:24
+   |
+53 |                        goal: &Option<Self>) -> bool {
+   |                        ^^^^ help: if this is intentional, prefix it with an underscore: `_goal`
+
+warning: unused variable: `has_filtered_nodes`
+  --> src/process/canon/verdict/global.rs:58:47
+   |
+58 | ...                   has_filtered_nodes: bool) -> Self {
+   |                       ^^^^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_has_filtered_nodes`
+
+warning: unused variable: `step`
+  --> src/process/canon/priorities.rs:47:36
+   |
+47 |     fn get_priority_of_step(&self, step: &CanonizationStepKind) -> i32 {
+   |                                    ^^^^ help: if this is intentional, prefix it with an underscore: `_step`
+
+warning: unused variable: `cl`
+  --> src/loggers/tracegen/printer.rs:70:13
+   |
+70 |         for cl in &self.partition.locs_lf_ids {
+   |             ^^ help: if this is intentional, prefix it with an underscore: `_cl`
+
+warning: unused variable: `a`
+  --> src/util/slicer.rs:27:22
+   |
+27 |         }).filter( |(a,b)| b <= &max).collect::<Vec<(usize,usize)>>()} ).concat();
+   |                      ^ help: if this is intentional, prefix it with an underscore: `_a`
+
+warning: variable does not need to be mutable
+  --> src/trace_manip/slice/exhaustive.rs:48:21
+   |
+48 |                 let mut new_trace = got_slice.iter().cloned().collect::<Vec<BTreeSet<TraceAction>>>();
+   |                     ----^^^^^^^^^
+   |                     |
+   |                     help: remove this `mut`
+
+warning: variable does not need to be mutable
+  --> src/trace_manip/slice/exhaustive.rs:79:21
+   |
+79 |                 let mut new_trace = canal_trace[0..i].iter().cloned().collect::<Vec<BTreeSet<TraceAction>>>();
+   |                     ----^^^^^^^^^
+   |                     |
+   |                     help: remove this `mut`
+
+warning: variable does not need to be mutable
+   --> src/trace_manip/slice/exhaustive.rs:110:21
+    |
+110 |                 let mut new_trace = canal_trace[i..].iter().cloned().collect::<Vec<BTreeSet<TraceAction>>>();
+    |                     ----^^^^^^^^^
+    |                     |
+    |                     help: remove this `mut`
+
+warning: unused variable: `file_path`
+  --> src/trace_manip/mutate/swap_actions.rs:40:9
+   |
+40 |     let file_path : String;
+   |         ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_file_path`
+
+warning: unused variable: `file_path`
+  --> src/trace_manip/mutate/swap_component.rs:40:9
+   |
+40 |     let file_path : String;
+   |         ^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_file_path`
+
+warning: variable does not need to be mutable
+   --> src/trace_manip/mutate/insert_noise.rs:105:9
+    |
+105 |     let mut seen_colocs : HashSet<usize> = hashset!{};
+    |         ----^^^^^^^^^^^
+    |         |
+    |         help: remove this `mut`
+
+warning: unused variable: `gen_ctx`
+  --> src/trace_manip/mutate/remove_actions.rs:57:31
+   |
+57 | fn mutate_by_removing_actions(gen_ctx : &GeneralContext,
+   |                               ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_gen_ctx`
+
+warning: unused variable: `co_localizations`
+  --> src/trace_manip/mutate/remove_actions.rs:58:30
+   |
+58 | ...                   co_localizations : &CoLocalizations,
+   |                       ^^^^^^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_co_localizations`
+
+warning: unused variable: `node_count`
+  --> src/nfa_translation/get_nfa_from_logger.rs:73:10
+   |
+73 |     let (node_count,_) = exploration_manager.start_process(init_node);
+   |          ^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_node_count`
+
+warning: unused variable: `printer`
+  --> src/nfa_translation/get_nfa_from_logger.rs:81:9
+   |
+81 |     let printer = nfa_logger.builder_printer.clone();
+   |         ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_printer`
+
+warning: variable does not need to be mutable
+  --> src/experiments/interaction_random_gen/gen.rs:88:9
+   |
+88 |     let mut symbol = probas.get_random_symbol(rng);
+   |         ----^^^^^^
+   |         |
+   |         help: remove this `mut`
+
+warning: unused variable: `shift`
+  --> src/experiments/doors_interactions_generation.rs:95:22
+   |
+95 |             let (mid,shift) = if x % 2 == 0 {
+   |                      ^^^^^ help: if this is intentional, prefix it with an underscore: `_shift`
+
+For more information about this error, try `rustc --explain E0425`.
+warning: `hibou_label` (bin "hibou_label") generated 290 warnings
+error: could not compile `hibou_label` (bin "hibou_label") due to 1 previous error; 290 warnings emitted
+
+Caused by:
+  process didn't exit successfully: `/home/hadriencrs/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc --crate-name hibou_label --edition=2021 src/main.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values())' -C metadata=d43f29abd0b6a3e7 -C extra-filename=-3f05f92e104bce01 --out-dir /home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps -C incremental=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/incremental -L dependency=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps --extern autour_core=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libautour_core-f26a1043da41b68c.rlib --extern autour_process=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libautour_process-071f87bdc8817a42.rlib --extern clap=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libclap-a9be63a83074d2ce.rlib --extern graph_process_manager_core=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libgraph_process_manager_core-4ca2ee8af16f1690.rlib --extern graph_process_manager_loggers=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libgraph_process_manager_loggers-873b8b5420fbce9a.rlib --extern graphviz_dot_builder=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libgraphviz_dot_builder-47a0c0b78b02b405.rlib --extern image=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libimage-a5c4b2cef32531ac.rlib --extern image_colored_text=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libimage_colored_text-5f311325fada2270.rlib --extern imageproc=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libimageproc-20e09b60f5ee6154.rlib --extern itertools=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libitertools-a80b0b6685fe7116.rlib --extern maplit=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libmaplit-5d49ad1f1165adbe.rlib --extern pest=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libpest-5bf2cd5c8328bf4a.rlib --extern pest_derive=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libpest_derive-c5db1bb5153122f1.so --extern rand=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/librand-44890b40c00b1bf8.rlib --extern rusttype=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/librusttype-af8434b653c6221f.rlib --extern strum=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libstrum-f90df1ec1bef1843.rlib --extern strum_macros=/home/hadriencrs/Code/rust/custom_hibou_label/target/debug/deps/libstrum_macros-e2b422e614a464fe.so` (exit status: 1)

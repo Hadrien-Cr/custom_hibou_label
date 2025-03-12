@@ -80,3 +80,28 @@ pub fn generate_canonical_random_interaction(gen_ctx : &GeneralContext,
     }
     Some(ican)
 }
+
+
+pub fn generate_raw_random_interaction(gen_ctx : &GeneralContext,
+                                                         rng : &mut StdRng,
+                                                         max_depth : u32,
+                                                         min_symbols : u32,
+                                                         probas : &InteractionSymbolsProbabilities) -> Option<Interaction> {
+
+    let i = generate_random_interaction(probas,
+                                        0,
+                                        max_depth,
+                                        &gen_ctx,
+                                        rng);
+
+    let imetrics = InteractionMetrics::extract_from_interaction(&i);
+    let isymbs = imetrics.symbols.iter().fold(0_u32, |x, (_, c)| x + c);
+    println!("generated interaction of depth {:} with {:} symbols", imetrics.depth, isymbs);
+    
+    if isymbs < min_symbols {
+        println!("not enough symbols");
+        return None;
+    }
+    
+    Some(i)
+}
