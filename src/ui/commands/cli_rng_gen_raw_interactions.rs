@@ -263,6 +263,9 @@ pub fn cli_rng_gen_raw_interactions(matches : &ArgMatches) -> (Vec<String>,u32,f
                 InteractionSymbolsProbabilities::default_non_regular()
             };
 
+            // Print the probabilities using the Display implementation for InteractionSymbolsProbabilities
+            println!("Selected probabilities for interaction symbol generation:");
+            println!("{}", probas);  // This will use the `fmt::Display` implementation
 
 
             let mut ret_print = vec![];

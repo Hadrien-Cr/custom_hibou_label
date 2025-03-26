@@ -231,10 +231,15 @@ impl InteractionSymbolsProbabilities {
     pub fn get_random_symbol(&self, rng : &mut StdRng) -> InteractionGenerationSymbol {
         let got = rng.gen_range(0.0_f32..1.0_f32);
         for (idx,x) in self.ordered_bounds.iter().enumerate() {
-            if got <= *x + 1e-6 {
+            if got <= *x + 1e-20 {
                 if idx == 0 {
                     return *self.ordered_symbols.get(0).unwrap();
                 } else {
+                    println!("{:?}", self.ordered_symbols);
+                    println!("{:?}", self.ordered_bounds);
+                    println!("{}", idx-1);
+                    println!("{}", got);
+                    println!("{}", x);
                     return *self.ordered_symbols.get(idx-1).unwrap();
                 }
             }
